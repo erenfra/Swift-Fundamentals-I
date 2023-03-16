@@ -10,7 +10,8 @@
 */
 
 // TODO: Write solution here
-
+let myAge = 48
+let isVotingAge = myAge >= 18
 
 /*:
  ## Challenge 2
@@ -23,9 +24,9 @@
  */
 
 // TODO: Write solution here
-
-
-
+let student = "Renato"
+let author = "Matt Galloway"
+let authorIsStudent = student == author
 /*:
  ## Challenge 3
  
