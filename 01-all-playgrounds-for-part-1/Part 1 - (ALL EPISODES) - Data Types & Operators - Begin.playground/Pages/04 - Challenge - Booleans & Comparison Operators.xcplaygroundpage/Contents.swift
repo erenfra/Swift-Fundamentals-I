@@ -36,7 +36,7 @@ let authorIsStudent = student == author
  */
 
 // TODO: Write solution here
-
+let studentBeforeAuthor = student < author
 
 
 //: [⇒ Next: 05 - Logical Operators](@next)

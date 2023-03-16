@@ -12,8 +12,10 @@
  */
 
 // TODO: Write solution here
-let hasAllergies = true
+let hasAllergies = false
+let dogName: String!
 
+dogName = hasAllergies ? nil : "Mango"
 /*:
  ## Challenge 2
  
@@ -23,7 +25,7 @@ let hasAllergies = true
  */
 
 // TODO: Write solution here
-
+let parsedInt = Int("10")
 
 
 
@@ -37,4 +39,5 @@ let hasAllergies = true
  */
 
 // TODO: Write solution here
-
+let parsedIntNew = Int("cat")
+//It will be NIL

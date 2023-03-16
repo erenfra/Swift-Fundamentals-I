@@ -1,5 +1,3 @@
-//: [⇐ Previous: 05 - Logical Operators](@previous)
-//: ## Episode 06: Challenge - Logical Operators
 
 /*:
  ## Challenge 1
@@ -12,6 +10,11 @@
 // TODO: Write solution here
 let myAge = 42
 
+if myAge >= 13 && myAge <= 19 {
+    print("Teenager")
+} else {
+    print ("Not a teenager")
+}
 
 /*:
  ## Challenge 2
@@ -21,6 +24,8 @@ let myAge = 42
  */
 
 // TODO: Write solution here
+// Syntax: expression ? true-value : false-value
 
+let teenagerName = myAge >= 13 && myAge <= 19 ? "Renato" : "Not me"
 
 //: [⇒ Next: 07 - Optionals](@next)
