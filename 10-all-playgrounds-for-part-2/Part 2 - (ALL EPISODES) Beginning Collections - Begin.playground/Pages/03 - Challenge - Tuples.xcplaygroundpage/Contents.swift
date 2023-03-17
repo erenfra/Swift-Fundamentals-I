@@ -9,7 +9,7 @@
  */
 
 // TODO: Write solution here
-
+var specialDate = (month: Int(), day: Int(), year: Int(), word: String())
 
 /*:
  Create another tuple, but this time name the constituent components. Give them names related to the data that they contain: month, day, year and description.
@@ -17,13 +17,18 @@
 
 
 // TODO: Write solution here
-
+specialDate.month = 6
+specialDate.day = 9
+specialDate.year = 2019
+specialDate.word = "WWDC"
 /*:
  In one line, read the day and description values into two constants. You’ll need to use the underscore to ignore the month and year.
  */
 
 // TODO: Write solution here
-
+var ( _ , day, _, word ) = specialDate
+day
+word
 
 /*:
  Up until now, you’ve only seen constant tuples. But you can create variable tuples, too. Create one more tuple, like in the exercises above, but this time use var instead of let. Now change the day to a new value. */
